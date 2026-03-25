@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
-from main import lf
+from data import lf
 import polars as pl
 from sklearn.pipeline import Pipeline
 import joblib
